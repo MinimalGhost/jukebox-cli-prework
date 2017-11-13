@@ -49,7 +49,7 @@ def run
   puts "Please enter a command:"
   response = gets.downcase.chomp
   case response
-  when condition
+  when 'list'
 
   end
 end
