@@ -51,5 +51,7 @@ def run
   case response
   when 'list'
     list(songs)
+  when 'play'
+    play(songs)
   end
 end
