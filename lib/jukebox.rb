@@ -28,7 +28,7 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  return user_input = gets.downcase.chomp
+  user_input = gets.downcase.chomp
   songs.each_with_index do |song, index|
     index + 1
     if user_input == song.downcase
