@@ -44,7 +44,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run(songs)
+def run
   help
   puts "Please enter a command:"
   response = gets.downcase.chomp
@@ -56,5 +56,6 @@ def run(songs)
     help
   elsif response == 'exit'
     exit_jukebox
+    break
   end
 end
