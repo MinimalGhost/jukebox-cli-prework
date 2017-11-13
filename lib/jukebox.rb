@@ -50,6 +50,6 @@ def run
   response = gets.downcase.chomp
   case response
   when 'list'
-
+    list(songs)
   end
 end
