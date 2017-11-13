@@ -30,10 +30,9 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.downcase.chomp
   songs.each_with_index do |song, index|
-    index + 1
     if user_input == song.downcase
       puts "Playing #{song}"
-    elsif user_input == index
+    elsif user_input == index + 1
       puts "Playing #{song}"
     else
       puts "Invalid input, please try again"
