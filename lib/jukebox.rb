@@ -59,12 +59,12 @@ def run
     when 'help'
       help
     end
-      when 'exit'
-        exit_jukebox
-        break
-      else
-        help
-      end
+    when 'exit'
+      exit_jukebox
+      break
+    else
+      help
+    end
     end
   end
 end
