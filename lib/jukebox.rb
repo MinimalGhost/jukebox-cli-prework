@@ -49,22 +49,7 @@ def run
   puts "Please enter a command:"
   response = gets.downcase.chomp
   case response
-    when 'list'
-      list(songs)
-    end
-    when 'play'
-      list(songs)
-      play(songs)
-    end
-    when 'help'
-      help
-    end
-    when 'exit'
-      exit_jukebox
-      break
-    else
-      help
-    end
-    end
+  when condition
+
   end
 end
