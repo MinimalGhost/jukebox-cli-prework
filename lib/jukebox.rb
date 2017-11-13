@@ -56,7 +56,6 @@ def run
     help
   elsif response == 'exit'
     exit_jukebox
-
   else
     help
     break
