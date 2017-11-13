@@ -48,17 +48,14 @@ def run
   help
   puts "Please enter a command:"
   response = gets.downcase.chomp
-  case response
-  when 'list'
+  if response == 'list'
     list(songs)
-  when 'play'
+  elsif response == 'play'
     play(songs)
-  when 'help'
+  elsif response == 'help'
     help
-  when 'exit'
+  elsif response == 'exit'
     exit_jukebox
     break
-  else
-    help
   end
 end
