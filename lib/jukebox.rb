@@ -48,7 +48,7 @@ def run
   help
   puts "Please enter a command:"
   response = gets.downcase.chomp
-  case response
+  case response 
     when 'list'
       list(songs)
       when 'play'
